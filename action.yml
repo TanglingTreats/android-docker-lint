@@ -1,0 +1,10 @@
+title: 'Android Docker Lint'
+description : 'Retrieves generated output files from Androidlinter'
+tags: 
+  - Docker
+  - Android
+  - Lint
+  
+runs: 
+  using: 'docker'
+  Image: 'Dockerfile
