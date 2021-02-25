@@ -3,4 +3,5 @@
 echo "Hello $1"
 time=$(date)
 echo "::set-output name=time::$time"
-cat /github/workspace/app/build/reports/lint-results.xml
+lint_path=/github/workspace/app/build/reports/lint-results.xml
+cat $lint_path
